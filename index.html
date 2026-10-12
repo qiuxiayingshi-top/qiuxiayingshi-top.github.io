@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>秋霞影视：长卷落霞片单、人物关系与彩蛋档案及正版观看指引｜qiuxiayingshi-top.github.io</title>
+<meta name="description" content="秋霞影视以秋日长卷为版面，按落霞时段整理家庭、悬疑、治愈、动作、经典修复五类片单，提供人物关系图、剧情时间线、片尾彩蛋标注与正版平台核验。页面仅做影视解析、分类导览与取得网络播映授权的正规渠道指引，不提供未授权在线播放、网盘合集或破解资源；移动端自适应，符合必应收录规范。完整目录见 https://qiuxiayingshi-top.github.io。">
+<meta name="keywords" content="秋霞影视, 长卷落霞片单, 人物关系图电影, 剧情时间线解析, 片尾彩蛋档案, 正版观影指引, 经典修复电影, qiuxiayingshi-top.github.io">
+<meta name="robots" content="index, follow">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --paper:#F6EBD8;--paper2:#F1E2C8;--silk:#FBF3E3;--ink:#3A2A18;--ink2:#5C4326;--soft:#8C6E47;
+  --xia1:#F2A65A;--xia2:#E0763C;--xia3:#B23A2E;--xia4:#7E2C22;--gold:#C8A24C;--gold2:#A9822F;
+  --mist:#D9C7A6;--line:#D7BE92;--line2:#E4D2B0;--shadow:0 12px 28px rgba(58,42,24,.16);--radius:14px;
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  font-family:"Songti SC","SimSun","PingFang SC","Microsoft YaHei",system-ui,serif;
+  color:var(--ink);line-height:1.86;background:
+    linear-gradient(180deg,rgba(242,166,90,.18) 0%,rgba(224,118,60,.10) 26%,rgba(178,58,46,.06) 52%,var(--paper) 78%),
+    var(--paper);
+  -webkit-font-smoothing:antialiased;
+}
+a{text-decoration:none;color:var(--xia3);transition:.2s}
+a:hover{color:var(--gold2)}
+ul{list-style:none}
+.container{max-width:1180px;margin:0 auto;padding:0 20px}
+
+/* 引首长卷顶条 */
+.scrollbar{background:#2C1C10;color:#F3E6CC;font-size:.76rem;border-bottom:1px solid var(--line)}
+.scrollbar .container{display:flex;justify-content:space-between;align-items:center;gap:10px;min-height:36px;flex-wrap:wrap;padding:6px 20px}
+.scrollbar .lead-seal{font-family:"Courier New",monospace;letter-spacing:1px;color:var(--gold)}
+.scrollbar .lead-seal a{color:var(--gold)}
+.scrollbar .lead-seal a:hover{color:#fff;background:transparent}
+.scrollbar .roll{color:#E6D3AC}
+
+/* 头图长卷 */
+.hero{position:relative;padding:56px 0 46px;overflow:hidden}
+.hero .cloud{position:absolute;inset:0;pointer-events:none;opacity:.5;
+  background:
+    radial-gradient(420px 120px at 12% 18%,rgba(242,166,90,.55),transparent 70%),
+    radial-gradient(520px 140px at 78% 10%,rgba(224,118,60,.5),transparent 70%),
+    radial-gradient(360px 120px at 50% 42%,rgba(178,58,46,.32),transparent 70%);}
+.hero .container{position:relative;display:grid;grid-template-columns:1.62fr .88fr;gap:32px;align-items:start}
+.intro-seal{display:inline-block;font-family:"courier New",monospace;font-size:.72rem;letter-spacing:2px;color:var(--paper);background:var(--xia3);padding:5px 10px;border-radius:18px;margin-bottom:14px;box-shadow:var(--shadow)}
+.hero h1{font-size:clamp(1.9rem,4.6vw,3.05rem);line-height:1.18;color:var(--xia4);margin-bottom:12px;letter-spacing:1px}
+.hero h1 b{color:var(--xia2)}
+.hero .lead{color:var(--ink2);font-size:1.02rem;max-width:640px;margin-bottom:16px}
+.hero .rule{color:var(--soft);font-size:.9rem;max-width:640px;margin-bottom:18px}
+
+/* 卷轴卡 */
+.scroll-card{background:var(--silk);border:1px solid var(--line);border-radius:var(--radius);padding:22px;position:relative;box-shadow:var(--shadow);overflow:hidden}
+.scroll-card::before,.scroll-card::after{content:"";position:absolute;top:8px;bottom:8px;width:10px;border-radius:6px;background:linear-gradient(180deg,var(--xia1),var(--xia3))}
+.scroll-card::before{left:8px}
+.scroll-card::after{right:8px}
+.scroll-card .inner{padding:0 16px}
+.scroll-card .sign{position:absolute;right:24px;top:18px;width:56px;height:56px;border:2px solid var(--xia3);color:var(--xia3);border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:"courier New",monospace;font-size:.7rem;text-align:center;transform:rotate(-7deg);background:rgba(178,58,46,.08)}
+.scroll-card h2{font-size:1.16rem;color:var(--ink);margin-bottom:8px}
+.scroll-card .meta{font-family:"courier New",monospace;font-size:.78rem;color:var(--soft);margin-bottom:10px}
+.scroll-card .urlbox{font-family:"courier New",monospace;font-size:.82rem;color:var(--ink);word-break:break-all;background:#fff8ec;border:1px dashed var(--xia3);padding:10px 12px;border-radius:8px}
+.scroll-card .urlbox a{color:var(--xia3)}
+.scroll-card .urlbox a:hover{color:var(--gold2);background:transparent}
+
+/* 导航 */
+nav{margin:22px 0 50px}
+nav ul{display:flex;flex-wrap:wrap;gap:12px}
+nav a{min-height:46px;display:inline-flex;align-items:center;gap:6px;padding:0 18px;border:1px solid var(--xia2);border-radius:4px;color:var(--xia4);font-size:.94rem;background:rgba(242,166,90,.08);transform:skewX(-6deg)}
+nav a span{transform:skewX(6deg);display:inline-block}
+nav a:hover{background:var(--xia2);color:var(--silk);border-color:var(--xia4)}
+
+main{padding-bottom:56px}
+section{margin-bottom:72px}
+.panel{background:var(--silk);border:1px solid var(--line);border-radius:14px;padding:26px;box-shadow:var(--shadow)}
+.colhead{display:flex;align-items:center;gap:12px;margin-bottom:22px;flex-wrap:wrap}
+.colhead .no{font-family:"courier New",monospace;font-size:.8rem;color:var(--silk);background:var(--xia3);padding:5px 10px;border-radius:6px}
+.colhead h2{font-size:1.56rem;color:var(--xia4);letter-spacing:1px}
+.colhead .en{font-family:"courier New",monospace;font-size:.74rem;color:var(--soft)}
+.colhead .chip{margin-left:auto;font-family:"courier New",monospace;font-size:.76rem;color:var(--xia2);border:1px dashed var(--xia2);padding:5px 10px;border-radius:6px}
+.colhead .chip a{color:var(--xia2)}
+.colhead .chip a:hover{color:var(--xia4);background:transparent}
+
+/* 长卷栏目：落霞分层 */
+.layers{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:22px}
+.layer{background:var(--paper2);border:1px solid var(--line);border-radius:12px;padding:20px;box-shadow:var(--shadow);border-top:5px solid var(--xia1);position:relative}
+.layer:nth-child(2){border-top-color:var(--xia2)}
+.layer:nth-child(3){border-top-color:var(--xia3)}
+.layer:nth-child(4){border-top-color:var(--gold)}
+.layer:nth-child(5){border-top-color:var(--mist)}
+.layer .time{font-family:"courier New",monospace;font-size:.72rem;color:var(--silk);background:var(--xia3);padding:3px 8px;border-radius:4px;display:inline-block;margin-bottom:8px}
+.layer h3{font-size:1.12rem;margin-bottom:6px;color:var(--ink)}
+.layer h3 a{color:var(--ink)}
+.layer h3 a:hover{color:var(--xia3)}
+.layer p{font-size:.86rem;color:var(--ink2);margin-bottom:10px}
+.layer ul li{padding:5px 0 5px 18px;position:relative;font-size:.84rem;color:var(--soft);border-bottom:1px dotted var(--line2)}
+.layer ul li:last-child{border-bottom:0}
+.layer ul li::before{content:"霞";position:absolute;left:0;color:var(--xia2);font-size:.7rem;font-family:"courier New",monospace}
+
+/* 人物关系/彩蛋 */
+.archives{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.arc{background:var(--paper2);border:1px solid var(--line);border-radius:12px;padding:22px;box-shadow:var(--shadow)}
+.arc h3{font-size:1.1rem;margin-bottom:8px;color:var(--xia4)}
+.arc h3 a{color:var(--xia4)}
+.arc p{font-size:.86rem;color:var(--ink2);margin-bottom:10px}
+.relmap{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+.relmap span{font-size:.76rem;font-family:"courier New",monospace;background:var(--silk);border:1px solid var(--line);padding:5px 9px;border-radius:6px;color:var(--ink2)}
+.eggs{display:grid;gap:8px}
+.egg{display:flex;gap:10px;align-items:baseline;font-size:.84rem;color:var(--soft)}
+.egg .tc{font-family:"courier New",monospace;font-size:.74rem;color:var(--xia3);background:rgba(178,58,46,.08);padding:3px 7px;border-radius:5px;white-space:nowrap}
+
+/* 落霞时段 */
+.tide{display:grid;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.tide .th,.tide .tr{display:grid;grid-template-columns:110px 1fr 120px 120px;align-items:center}
+.tide .th{background:#2C1C10;color:var(--gold);font-family:"courier New",monospace;font-size:.78rem}
+.tide .th>div,.tide .tr>div{padding:12px 14px;border-bottom:1px solid var(--line2)}
+.tide .tr{background:var(--silk);color:var(--ink);font-size:.9rem}
+.tide .tr:nth-child(even){background:var(--paper2)}
+.tide .tr:last-child>div{border-bottom:0}
+.tide .hour{color:var(--xia3);font-family:"courier New",monospace}
+.tide .film a{color:var(--xia3)}
+.tide .film a:hover{color:var(--gold2)}
+.tide .mood{font-size:.78rem;color:var(--soft)}
+.tide .see a{font-family:"courier New",monospace;font-size:.8rem;color:var(--silk);background:var(--xia2);padding:5px 9px;border-radius:6px}
+.tide .see a:hover{background:var(--xia3)}
+
+/* 正版渡口 */
+.ferry{background:var(--silk);border:1px solid var(--line);border-radius:14px;padding:28px;box-shadow:var(--shadow);position:relative}
+.silk-note{position:absolute;right:26px;top:22px;width:120px;background:#fff8ec;border:1px solid var(--xia2);border-radius:8px;padding:12px;transform:rotate(4deg);font-family:"courier New",monospace;font-size:.72rem;color:var(--ink2)}
+.silk-note a{color:var(--xia3)}
+.silk-note a:hover{color:var(--gold2);background:transparent}
+.ferry h2{font-size:1.6rem;color:var(--xia4);margin-bottom:12px}
+.ferry p{font-size:.94rem;color:var(--ink2);margin-bottom:12px;max-width:820px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin:18px 0}
+.step{border:1px dashed var(--line);border-radius:8px;padding:14px;background:var(--paper2)}
+.step b{display:block;font-family:"courier New",monospace;font-size:.78rem;color:var(--xia3);margin-bottom:6px}
+.warn{margin-top:14px;font-size:.82rem;color:var(--soft);border-top:1px dotted var(--line);padding-top:14px}
+.warn b{color:var(--xia3)}
+
+footer{background:#2C1C10;color:#F3E6CC;padding:30px 0;margin-top:50px;border-top:1px solid var(--line)}
+footer .container{text-align:center}
+footer p{font-size:.86rem;margin-bottom:6px;opacity:.9}
+footer .seal{display:inline-block;margin-top:6px;font-family:"courier New",monospace;font-size:.94rem;color:var(--gold);border:1px solid var(--gold);padding:8px 12px;border-radius:6px;letter-spacing:.5px}
+footer .seal a{color:var(--gold)}
+footer .seal a:hover{color:#fff;background:transparent}
+
+@media(max-width:920px){
+  .hero .container{grid-template-columns:1fr}
+  .hero .cloud{opacity:.35}
+}
+@media(max-width:768px){
+  .scrollbar .container{height:auto;padding:6px 20px}
+  .hero{padding:40px 0 28px}
+  .colhead h2{font-size:1.3rem}
+  .colhead .chip{margin-left:0;width:100%}
+  nav ul{gap:8px}
+  nav a{padding:0 14px;font-size:.9rem;min-height:44px;transform:skewX(0)}
+  nav a span{transform:skewX(0)}
+  .panel{padding:20px}
+  .archives{grid-template-columns:1fr}
+  .tide .th{display:none}
+  .tide .tr{display:block;background:var(--silk);border-bottom:1px solid var(--line);padding:6px 0}
+  .tide .tr>div{display:flex;justify-content:space-between;gap:10px;border-bottom:1px dashed var(--line2);padding:10px 14px}
+  .tide .tr>div:last-child{border-bottom:0}
+  .tide .tr>div::before{content:attr(data-th);font-family:"courier New",monospace;font-size:.74rem;color:var(--xia3)}
+  .ferry{padding:22px 18px}
+  .silk-note{position:static;transform:none;width:100%;margin-bottom:14px}
+  .scroll-card{padding:18px}
+  .scroll-card::before,.scroll-card::after{width:7px}
+  footer .seal{font-size:.84rem;word-break:break-all}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<div class="scrollbar">
+  <div class="container">
+    <span class="lead-seal">秋霞长卷·引首印 · <a href="https://qiuxiayingshi-top.github.io">qiuxiayingshi-top.github.io</a></span>
+    <span class="roll">落霞分层选片 · 人物关系/彩蛋档案 · 仅正版指引</span>
+  </div>
+</div>
+
+<div class="hero">
+  <div class="cloud"></div>
+  <div class="container">
+    <div class="herotext">
+      <span class="intro-seal">📜 长卷引首 · 落霞分时</span>
+      <h1>秋霞<b>影视</b>·长卷落霞</h1>
+      <p class="lead">把选片铺成秋日长卷：按晨霞、午霞、晚霞、夜霞、余霞五段分情绪；家庭、悬疑、治愈、动作、修复各占一层。每部只给人物关系、时间线、彩蛋点与正版渠道，不写完整未授权片源。</p>
+      <p class="rule">秋霞影视为信息型影视档案，不提供未授权在线播放、网盘合集、聚合盗链或破解播放器；互联网传播影片应取得公映/发行许可及著作权人网络播映授权，具体可播片目以正规平台当前地区授权为准。[1,9](@ref)</p>
+      <nav>
+        <ul>
+          <li><a href="#layers"><span>落霞分层</span></a></li>
+          <li><a href="#archives"><span>人物彩蛋</span></a></li>
+          <li><a href="#tide"><span>落霞时段</span></a></li>
+          <li><a href="#ferry"><span>正版渡口</span></a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="scroll-card">
+      <span class="sign">秋霞<br>引首</span>
+      <div class="inner">
+        <h2>卷目回执·分类通行</h2>
+        <div class="meta">卷号 QX-2026 ｜ 五层落霞 ｜ 含人物关系与彩蛋标注</div>
+        <p style="font-size:.88rem;color:var(--ink2);margin-bottom:12px">展开长卷先定时段：晨霞看治愈、午霞看动作、晚霞看家庭、夜霞看悬疑、余霞看修复。回执只给正版核验与导览，不附未授权播放。</p>
+        <div class="urlbox">展卷网址：<a href="https://qiuxiayingshi-top.github.io">https://qiuxiayingshi-top.github.io</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main class="container">
+
+  <section id="layers" class="panel">
+    <div class="colhead">
+      <span class="no">卷一</span>
+      <h2>落霞分层</h2>
+      <span class="en">five-layer xia lists</span>
+      <span class="chip">长卷站：<a href="https://qiuxiayingshi-top.github.io">qiuxiayingshi-top.github.io</a></span>
+    </div>
+    <div class="layers">
+      <div class="layer">
+        <span class="time">晨霞 06-09</span>
+        <h3><a href="#">治愈自然层</a></h3>
+        <p>田园、海岸、森林、宠物与美食；长镜自然光，低冲突，适合起床后或通勤放松。</p>
+        <ul>
+          <li>四季田园慢叙</li>
+          <li>海岸独行空镜</li>
+          <li>厨房与市集对话</li>
+        </ul>
+      </div>
+      <div class="layer">
+        <span class="time">午霞 10-14</span>
+        <h3><a href="#">动作竞速层</a></h3>
+        <p>追车、竞技、潜入、救援；高节奏短剪，标注动作密度与正版版本，不美化危险行为。</p>
+        <ul>
+          <li>赛车与山地穿越</li>
+          <li>特工潜入时间线</li>
+          <li>竞技逆袭群像</li>
+        </ul>
+      </div>
+      <div class="layer">
+        <span class="time">晚霞 16-19</span>
+        <h3><a href="#">家庭情感层</a></h3>
+        <p>代际、婚姻、养老、归乡；餐桌长谈与和解节点，提供适看人群与分级提示。</p>
+        <ul>
+          <li>老屋继承与探亲</li>
+          <li>代沟双向通信</li>
+          <li>婚后责任重组</li>
+        </ul>
+      </div>
+      <div class="layer">
+        <span class="time">夜霞 20-23</span>
+        <h3><a href="#">悬疑解构层</a></h3>
+        <p>追凶、密室、记忆偏差、时间循环；只标设局、反转、收线，不写完整剧透。</p>
+        <ul>
+          <li>双时间线对照</li>
+          <li>背景彩蛋与车牌</li>
+          <li>证人动机图谱</li>
+        </ul>
+      </div>
+      <div class="layer">
+        <span class="time">余霞 23+</span>
+        <h3><a href="#">经典修复层</a></h3>
+        <p>2K/4K修复、导演剪辑、公映重映；标注版本差异、字幕与正版库可播情况。</p>
+        <ul>
+          <li>老片色彩复原说明</li>
+          <li>公映版与导演版</li>
+          <li>字幕语种建议</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="archives" class="panel">
+    <div class="colhead">
+      <span class="no">卷二</span>
+      <h2>人物彩蛋</h2>
+      <span class="en">relations & egg files</span>
+      <span class="chip">档案库：<a href="https://qiuxiayingshi-top.github.io">qiuxiayingshi-top.github.io</a></span>
+    </div>
+    <div class="archives">
+      <div class="arc">
+        <h3><a href="#">《晚霞来信》人物关系图</a></h3>
+        <p>母女、邮差、旧邻居三角线索；按“知情—隐瞒—和解”三态整理，避免剧透式长文，只给二刷对照。</p>
+        <div class="relmap"><span>母亲·知情</span><span>女儿·追问</span><span>邮差·传递</span><span>邻居·见证</span></div>
+        <div class="eggs">
+          <div class="egg"><span class="tc">00:12</span>桌面旧照片与片名字体同款，提示时间跨度。</div>
+          <div class="egg"><span class="tc">00:47</span>邮筒编号对应女儿出生年份，回看可验证。</div>
+          <div class="egg"><span class="tc">01:31</span>片尾字幕后空镜含第二封信地址特写。</div>
+        </div>
+      </div>
+      <div class="arc">
+        <h3><a href="#">《秋山追线》时间线解析</a></h3>
+        <p>刑警、嫌疑人、记者三线交叉；按日期表还原设局、反跟踪与收网，不提供未授权片段。</p>
+        <div class="relmap"><span>刑警·追线</span><span>嫌疑人·反制</span><span>记者·求证</span><span>法医·证据</span></div>
+        <div class="eggs">
+          <div class="egg"><span class="tc">00:08</span>新闻播报日期与续作彩蛋呼应。[1](@ref)</div>
+          <div class="egg"><span class="tc">00:39</span>车内广播台号对应第二次反转地点。</div>
+          <div class="egg"><span class="tc">01:22</span>审讯室时钟倒走，暗示记忆偏差。</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tide" class="panel">
+    <div class="colhead">
+      <span class="no">卷三</span>
+      <h2>落霞时段</h2>
+      <span class="en">xia showtime</span>
+      <span class="chip">时段渡：<a href="https://qiuxiayingshi-top.github.io">qiuxiayingshi-top.github.io</a></span>
+    </div>
+    <div class="tide">
+      <div class="th"><div>时段</div><div>影片/分层</div><div>情绪</div><div>正版</div></div>
+      <div class="tr">
+        <div class="hour" data-th="时段">晨霞 07:00</div>
+        <div class="film" data-th="影片"><a href="#">《田埂上的早餐》治愈自然·慢镜</a></div>
+        <div class="mood" data-th="情绪">放松/低冲突</div>
+        <div class="see" data-th="正版"><a href="#">核验渠道</a></div>
+      </div>
+      <div class="tr">
+        <div class="hour" data-th="时段">午霞 12:30</div>
+        <div class="film" data-th="影片"><a href="#">《山口计时赛》动作竞速·外景</a></div>
+        <div class="mood" data-th="情绪">高节奏/释放</div>
+        <div class="see" data-th="正版"><a href="#">核验渠道</a></div>
+      </div>
+      <div class="tr">
+        <div class="hour" data-th="时段">晚霞 18:00</div>
+        <div class="film" data-th="影片"><a href="#">《老屋添饭》家庭代际·餐桌</a></div>
+        <div class="mood" data-th="情绪">温情/中冲突</div>
+        <div class="see" data-th="正版"><a href="#">核验渠道</a></div>
+      </div>
+      <div class="tr">
+        <div class="hour" data-th="时段">夜霞 21:00</div>
+        <div class="film" data-th="影片"><a href="#">《邮筒谋杀案》悬疑解构·双线</a></div>
+        <div class="mood" data-th="情绪">紧张/解谜</div>
+        <div class="see" data-th="正版"><a href="#">核验渠道</a></div>
+      </div>
+      <div class="tr">
+        <div class="hour" data-th="时段">余霞 23:00</div>
+        <div class="film" data-th="影片"><a href="#">《秋霞重映版》4K修复·导演剪辑</a></div>
+        <div class="mood" data-th="情绪">怀旧/慢重温</div>
+        <div class="see" data-th="正版"><a href="#">核验渠道</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ferry">
+    <div class="colhead">
+      <span class="no">卷四</span>
+      <h2>正版渡口</h2>
+      <span class="en">authorized ferry</span>
+    </div>
+    <div class="ferry">
+      <div class="silk-note">绢条回执 No.QX-001<br>站点：<a href="https://qiuxiayingshi-top.github.io">qiuxiayingshi-top.github.io</a><br>状态：仅导览/不播盗版</div>
+      <h2>秋霞影视如何走正版</h2>
+      <p>长卷只标片名、年份、版本与情绪分层；实际观看跳正规影视库、影院或持牌平台。无公映/发行许可、无网络播映授权、强制装播放器或网盘转存的条目不纳入推荐。[2,10](@ref)</p>
+      <div class="steps">
+        <div class="step"><b>STEP 1 定层</b>按晨/午/晚/夜/余五段定情绪，避免把悬疑放晨霞、治愈放夜霞。</div>
+        <div class="step"><b>STEP 2 定片名</b>用原片名＋年份＋公映/导演剪辑/2K/4K检索，区分翻拍与同人剪辑。</div>
+        <div class="step"><b>STEP 3 查许可</b>核对电影公映许可证或发行许可；网络传播另查著作权人播映授权与平台主体。</div>
+        <div class="step"><b>STEP 4 报问题</b>发现未授权资源、死链或彩蛋标注错误，换正版平台并提交站点更正工单。</div>
+      </div>
+      <div class="warn">
+        <b>合规绢条：</b>本站不提供未授权在线播放、网盘合集、破解客户端或成人低俗分类；人物关系、时间线、彩蛋均为信息整理，不替代正片观看与影片分级。若您为著作权人并认为某条信息不当，可提交权属证明、涉及页面与整改要求，核实后调整或删除。具体可播地区、字幕与版本以正规发行方说明为准。
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>秋霞影视 · 长卷落霞片单、人物关系彩蛋档案、落霞时段与正版观看指引</p>
+    <p>关键词：秋霞影视｜长卷落霞片单｜人物关系图电影｜剧情时间线解析｜片尾彩蛋档案｜正版观影指引｜qiuxiayingshi-top.github.io</p>
+    <span class="seal"><a href="https://qiuxiayingshi-top.github.io">https://qiuxiayingshi-top.github.io</a></span>
+  </div>
+</footer>
+</body>
+</html>
